@@ -403,3 +403,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+main.main {
+    height: 500px;
+    width: 380px;
+    background-color: var(--white);
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;    
+}
