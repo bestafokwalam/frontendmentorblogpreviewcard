@@ -410,5 +410,27 @@ main.main {
     background-color: var(--white);
     border-radius: 15px;
     border: 2px solid black;
-    box-shadow: 10px 10px black;    
+    box-shadow: 10px 10px black;
+    padding: 20px;    
+}
+
+.blogimage{
+    border-radius: 10px;
+}
+.learnbtn{
+    margin-top: 20px;
+    background-color: var(--yellow);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 5rem;
+    height: 30px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.publish{
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 15px;
 }
