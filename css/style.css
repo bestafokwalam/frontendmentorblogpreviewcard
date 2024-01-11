@@ -405,17 +405,18 @@ body {
 }
 
 main.main {
-    height: 500px;
+    height: 525px;
     width: 380px;
     background-color: var(--white);
     border-radius: 15px;
     border: 2px solid black;
-    box-shadow: 10px 10px black;
-    padding: 20px;    
+    box-shadow: 8px 8px black;
+    padding: 20px;
 }
 
 .blogimage{
     border-radius: 10px;
+    width: 100%;
 }
 .learnbtn{
     margin-top: 20px;
@@ -433,4 +434,54 @@ main.main {
     margin-top: 16px;
     font-weight: 600;
     font-size: 15px;
+}
+
+.foundation{
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.desc{
+    margin-top: 20px;
+    color: var(--grey);
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.profile{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.profileimage{
+    width: 30px;
+}
+
+.profilename{
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+main.main:hover {
+    box-shadow: 15px 15px black;
+}
+
+.foundation:hover{
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+@media(max-width:576px){
+    main.main {
+        height: 485px;
+        width: 320px;
+    }
+    .blogimage{
+        border-radius: 10px;
+        width: 100%;
+    }
+    .foundation{
+        font-size: 22px;
+    }
 }
